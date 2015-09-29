@@ -1,0 +1,123 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 1px  !important;
+}
+
+div {
+    display: block;
+}
+
+h1, h4, p {
+    font-family: "raleway", sans-serif;
+    font-weight: 200;
+}
+
+h3 {
+    color: #bcbbbb;
+    font-family: "roboto", sans-serif;
+}
+
+h2 {
+    color: #747704;
+}
+
+a {
+    color: #013939;
+}
+
+
+label, input, button, textarea {
+    color: #013939;
+}
+
+input, textarea {
+    width: 30%;
+}
+
+a:hover {
+    color: #660066;
+    border-radius: 25%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.header-row {
+    /* background-color: #7b233e; */
+    color: #7b233e;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.nav {
+    list-style-type: none;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 10px 5px 0px 5px;
+    /* border: 1px solid #013939; */
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    border-bottom: 1px solid #013939;
+}
+
+.intro {
+    background: url('img/DSC_4213.jpg') no-repeat;
+    background-size: 100%;
+    display: block;
+    min-height: 500px;
+
+}
+
+.quote {
+    padding-top: 20px;
+    font-size: 1.75em;   
+    color: white;
+}
+
+.about-me {
+    color: #004c2f
+}
+
+
+.round-image {
+    border-radius: 45%;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 1em;
+    }
+    h2, 
+    h3,
+    h4 {
+        font-size: .9em;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+        text-transform: lowercase;
+    }
+}
