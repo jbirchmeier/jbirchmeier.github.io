@@ -30,6 +30,10 @@ h2 {
     color: #747704;
 }
 
+section {
+    margin-bottom: 200px;
+}
+
 a {
     color: #013939;
 }
@@ -59,7 +63,7 @@ a:hover {
 
 .row {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .header-row {
