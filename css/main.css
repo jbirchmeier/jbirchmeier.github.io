@@ -103,25 +103,30 @@ a:hover {
 @media screen and (max-width: 560px) {
     h1 {
         font-size: 1em;
-
     }
-    h2, 
-    h3,
-    h4 {
+    h2, h3, h4, p {
         font-size: .9em;
     }
-    li {
+    li, .quote {
         font-size: .75em;
     }
-    h1,
-    h2,
-    h3,
-    h4,
-    li {
+    h1, h2, h3, h4, li {
         text-transform: lowercase;
     }
     .intro {
             min-height: 200px;
     }
+    .title {
+        margin-bottom: 5px;
+    }
 
+}
+
+@media screen and (max-width: 480px) {
+    .intro {
+            min-height: 100px;
+    }
+    section {
+    margin-bottom: 30px;
+    }
 }
