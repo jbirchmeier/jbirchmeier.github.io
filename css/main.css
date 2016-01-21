@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     margin: 0px;
     padding: 0px;
@@ -22,7 +23,6 @@ h1, h4, p {
 }
 
 h3 {
-    color: #bcbbbb;
     font-family: "roboto", sans-serif;
 }
 
@@ -34,7 +34,7 @@ section {
     margin-bottom: 200px;
 }
 
-a {
+h3, a, p {
     color: #013939;
 }
 
@@ -67,7 +67,6 @@ a:hover {
 }
 
 .header-row {
-    /* background-color: #7b233e; */
     color: #7b233e;
     margin-top: 10px;
     margin-bottom: 0;
@@ -106,11 +105,6 @@ a:hover {
     font-size: 1.75em;   
     color: white;
 }
-
-.about-me {
-    color: #004c2f
-}
-
 
 .round-image {
     border-radius: 45%;
