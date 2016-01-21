@@ -31,7 +31,7 @@ h2 {
 }
 
 section {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 h3, a, p {
@@ -63,14 +63,14 @@ a:hover {
 
 .row {
     width: 100%;
-    margin-bottom: 50px;
+
 }
 
 .header-row {
     color: #7b233e;
     margin-top: 10px;
-    margin-bottom: 0;
     padding-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .nav {
@@ -80,7 +80,7 @@ a:hover {
     padding-left: 0;
     margin-left: 0;
     padding-bottom: 0;
-    margin-bottom: 0;
+
 }
 
 .nav li {
