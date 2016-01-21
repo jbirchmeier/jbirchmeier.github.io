@@ -35,7 +35,7 @@ section {
     margin-bottom: 100px;
 }
 
-h3, a, p {
+h3, a, p, label, input, button, textarea{
     color: #013939;
 }
 
@@ -47,13 +47,8 @@ footer ul li, .nav {
     list-style-type: none;
 }
 
-
-label, input, button, textarea {
-    color: #013939;
-}
-
 input, textarea {
-    width: 30%;
+    width: 50%;
 }
 
 a:hover {
@@ -95,8 +90,7 @@ a:hover {
 }
 
 .quote {
-    padding-top: 20px;
-    font-size: 1.75em;   
+    padding-top: 20px;  
     color: white;
 }
 
@@ -106,19 +100,28 @@ a:hover {
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 560px) {
     h1 {
         font-size: 1em;
+
     }
     h2, 
     h3,
     h4 {
         font-size: .9em;
     }
+    li {
+        font-size: .75em;
+    }
     h1,
     h2,
     h3,
-    h4 {
+    h4,
+    li {
         text-transform: lowercase;
     }
+    .intro {
+            min-height: 200px;
+    }
+
 }
