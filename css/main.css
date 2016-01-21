@@ -11,6 +11,7 @@ body {
     margin: 0px;
     padding: 0px;
     border: 1px;
+    background-color: #e8e8e8;
 }
 
 div {
@@ -42,9 +43,8 @@ footer {
     border-top: 1px solid #013939;
 }
 
-footer ul li {
+footer ul li, .nav {
     list-style-type: none;
-    margin-bottom: 50px;
 }
 
 
@@ -61,11 +61,6 @@ a:hover {
     border-radius: 25%;
 }
 
-.row {
-    width: 100%;
-
-}
-
 .header-row {
     color: #7b233e;
     margin-top: 10px;
@@ -74,7 +69,6 @@ a:hover {
 }
 
 .nav {
-    list-style-type: none;
     padding-top: 0;
     margin-top: 0;
     padding-left: 0;
